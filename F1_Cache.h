@@ -36,6 +36,11 @@ class F1_GlobalCache
 	std::unordered_map<int, std::unordered_map<tf_hitbox, F1_HitboxCache>> hbCache;
 
 	//std::unordered_map<int, F1_BonesCache> bonesCache;
+	//wow you tried to compile this and i got your attention
+	//remove ", {}" in both std::vector lines
+	//only 33 should be in the parantheses
+	//Gourmetanal is a trap loli and probably hentai killsays was his idea
+	//this is so sad can we crack lastest nallcorr?
 
 	std::vector<F1_BonesCache> bonesCache = std::vector<F1_BonesCache>(33, {});
 
